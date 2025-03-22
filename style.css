@@ -1,0 +1,167 @@
+body {
+   background-color: #F8D7DC;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+   background-color: #F2ACB7;
+   color: white;
+   display: flex;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+   }
+
+.logo {
+   width: 100px;
+   height: 100px;
+   margin-left: 10px;
+}
+
+.text {
+   margin-top: 10px;
+    display: flex;
+    float: left;
+} 
+
+header h1 {
+   margin-top: 40px;
+}
+
+
+nav {
+    background-color: white;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid #A3528D;
+    border-radius: 10px;
+    float: left;
+}
+
+nav a {
+   color: black;
+   text-decoration: none;
+   margin: 0px 5px 0px 5px;
+}
+
+nav p {
+   text-align: center;
+}
+
+.menu {
+   font-size: 30px;
+   margin: 10px;
+}
+
+.pink {
+   background: linear-gradient(to left, #F1C6D5, #E18CAA);
+}
+
+.pinky{
+  background-color: #F4C9D5; 
+}
+
+.violette {
+   background: linear-gradient(to left, #DDC0D5, #C38BB4);
+}
+
+.violetty{
+  background-color: #E8BFD6;
+}
+
+.purple { 
+   background: linear-gradient(to left, #C7B9D3, #9C82B2);
+ }
+
+ .purply{
+   background-color: #E8BFD6;
+ }
+
+ .opus{
+   text-align: center;
+   width: 300px;
+    float: right;
+   margin-right: 50px;
+   margin-top: 50px;
+   background-color: #FFCABA;
+   border: 3px dotted #EBA189;
+   border-radius: 50px;
+ }
+
+ div img {
+   width: 325px ;
+   height: 325px;
+ }
+
+ .rollu {
+   margin-top: 140px;
+   float: right;
+   background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+ .ramen {
+   margin-top: 50px;
+   float: left;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+ .mochi{
+    margin-top: 50px;
+   float: right;
+   width: 250px;
+   margin-right: 100px;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+
+ }
+
+ .chiscake{
+     margin-top: 50px;
+   float: left;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+  .fruts{
+     margin-top: 50px;
+   float: right;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+ .buble-tea{
+     margin-top: 50px;
+   float: left;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+  }
+
+ .coffe{
+      margin-top: 50px;
+   float: right;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+ .limoned{
+    margin-top: 50px;
+   float: left;
+    background-color: #EB95B8;
+   border: 8px solid #D8719B;
+ }
+
+ .buy {
+   text-align: center;
+   font-size: 30px;
+   margin: 10px 0px 10px 0px;
+ }
+
+ footer {
+   background-color:#C185CE;
+   margin-top: 2100px;
+   height: 50px;
+ }
+ 
