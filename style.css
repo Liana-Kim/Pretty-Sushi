@@ -1,6 +1,8 @@
 body {
    background-color: #F8D7DC;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin: 0px;
+   padding: 0px;
 }
 
 header{
@@ -10,6 +12,10 @@ header{
     justify-content: flex-start;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
+   }
+
+   h1:hover{
+    color: black;
    }
 
 .logo {
@@ -31,7 +37,7 @@ header h1 {
 
 nav {
     background-color: white;
-    width: 300px;
+    width: 45%;
     margin-top: 10px;
     margin-left: 10px;
     border: 3px solid #A3528D;
@@ -54,114 +60,121 @@ nav p {
    margin: 10px;
 }
 
-.pink {
-   background: linear-gradient(to left, #F1C6D5, #E18CAA);
-}
-
-.pinky{
-  background-color: #F4C9D5; 
-}
-
-.violette {
-   background: linear-gradient(to left, #DDC0D5, #C38BB4);
-}
-
-.violetty{
-  background-color: #E8BFD6;
-}
-
-.purple { 
-   background: linear-gradient(to left, #C7B9D3, #9C82B2);
- }
-
- .purply{
-   background-color: #E8BFD6;
- }
+.pink { background: linear-gradient(to left, #F1C6D5, #E18CAA); }
+.pinky { background-color: #F4C9D5; }
+.violette { background: linear-gradient(to left, #DDC0D5, #C38BB4); }
+.violetty { background-color: #E8BFD6; }
+.purple { background: linear-gradient(to left, #C7B9D3, #9C82B2); }
+.purply { background-color: #E8BFD6; }
+.pnk{background: linear-gradient(to left, #C869C0, #E0ACDC); }
 
  .opus{
    text-align: center;
-   width: 300px;
-    float: right;
-   margin-right: 50px;
-   margin-top: 50px;
+   width: 45%;
+   float: right;
+   margin-right: 10px;
+   margin-top: 0%;
    background-color: #FFCABA;
    border: 3px dotted #EBA189;
    border-radius: 50px;
+   display: block;
+   position: absolute;
+   top: 200px;
+   left: 50%;
  }
 
  div img {
    width: 325px ;
    height: 325px;
  }
-
- .rollu {
-   margin-top: 140px;
-   float: right;
-   background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
- .ramen {
-   margin-top: 50px;
-   float: left;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
- .mochi{
-    margin-top: 50px;
-   float: right;
-   width: 250px;
-   margin-right: 100px;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
-
- }
-
- .chiscake{
-     margin-top: 50px;
-   float: left;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
-  .fruts{
-     margin-top: 50px;
-   float: right;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
- .buble-tea{
-     margin-top: 50px;
-   float: left;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
-  }
-
- .coffe{
-      margin-top: 50px;
-   float: right;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
- .limoned{
-    margin-top: 50px;
-   float: left;
-    background-color: #EB95B8;
-   border: 8px solid #D8719B;
- }
-
- .buy {
-   text-align: center;
-   font-size: 30px;
-   margin: 10px 0px 10px 0px;
- }
-
- footer {
-   background-color:#C185CE;
-   margin-top: 2100px;
-   height: 50px;
- }
  
+ .photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 350px;
+    position: relative;
+    left: -10%;
+}
+
+
+.photo div {
+    background-color: #EB95B8;
+    border: 8px solid #D8719B;
+    border-radius: 15px;
+    text-align: center;
+    width: 40%;
+}
+
+
+.photo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 4px solid #D8719B;
+    opacity: 0.8;
+}
+
+.photo img:hover{
+    opacity: 1;
+}
+
+.photo div:hover{
+    background-color: #e09df5;
+    border: 8px solid #d64fff;
+}
+
+.photo img:hover{
+    border-bottom: 4px solid #d64fff;
+}
+
+
+.buy {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.reviews{
+    background-color: #D3ACDE;
+    margin: 0px 20px 0px 20px;
+    border: 4px double #9A3EB4;
+}
+
+.reviews h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30px;
+    background-color: #B16BC5;
+}
+
+.reviews p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.name{
+    font-size: 20px;
+    background-color: #A46EC7;
+}
+
+.tx{
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 18px;
+    background-color: #C869C0;
+    margin-top: -15px;
+}
+
+footer {
+    background-color: #C185CE;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer:hover{
+    color: white;
+}
